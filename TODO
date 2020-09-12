@@ -1,0 +1,17 @@
+Backend: 
+    ✔ Serve Skills @created(20-09-11 13:59) @done(20-09-11 13:59)
+    ✔ Add Skills @created(20-09-11 13:59) @done(20-09-11 13:59)
+    ✔ Update Skills @created(20-09-11 13:59) @done(20-09-11 13:59)
+    ✔ Delete Skills @created(20-09-11 13:59) @done(20-09-11 13:59)
+
+    ✔ Serve Interests @created(20-09-11 13:59) @done(20-09-11 13:59)
+    ✔ Add Interests @created(20-09-11 13:59) @done(20-09-11 13:59)
+    ✔ Update Interests @created(20-09-11 13:59) @done(20-09-11 13:59)
+    ✔ Delete Interests @created(20-09-11 13:59) @done(20-09-11 13:59)
+    ☐ Seed Database @created(20-09-11 14:10)
+
+
+Frontend: 
+    ☐ Hook up Interests @created(20-09-11 14:00)
+    ☐ Hook up Skills @created(20-09-11 14:00)
+    ☐ Embedd Auth @created(20-09-11 14:00)
