@@ -9,7 +9,7 @@ const User = require('../models/user');
 
 router.post('/seed', (req, res) => {
   exec('npm run seed');
-  res.send(200);
+  res.send('db seeded');
 });
 
 router.post('/users', async (req, res) => {
