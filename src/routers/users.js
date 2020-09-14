@@ -1,10 +1,16 @@
 const express = require('express');
 
 const router = new express.Router();
+const { exec } = require('child_process');
 
 const auth = require('../middleware/auth');
 
 const User = require('../models/user');
+
+router.post('/seed', (req, res) => {
+  exec('npm run seed');
+  res.send(200);
+});
 
 router.post('/users', async (req, res) => {
   const user = new User(req.body);
